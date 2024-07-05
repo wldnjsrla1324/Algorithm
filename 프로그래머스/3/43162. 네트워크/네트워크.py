@@ -3,7 +3,7 @@ def solution(n, computers):
     def dfs(i, visited, computers):
         visited[i] = True #방문 컴퓨터는 방문 처리
         for j in range(n):
-            if computers[i][j] == 1 and visited[j]==False:
+            if not visited[j] and computers[i][j] == 1:
                 dfs(j, visited, computers)
 
     visited = [False]*n #초기 방문여부 세팅
