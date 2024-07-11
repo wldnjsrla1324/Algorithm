@@ -8,8 +8,6 @@ def solution(numbers, target):
         if i >= n_len:
             if total == target:
                 answer += 1
-            else:
-                return False
         else:
             dfs(i,total+numbers[i],n_len)
             dfs(i,total-numbers[i],n_len)
