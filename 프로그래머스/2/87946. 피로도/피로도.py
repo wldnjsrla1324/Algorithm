@@ -7,9 +7,9 @@ def solution(k, dungeons):
         k=origin #피로도 초기화
         temp=0 #탐험한 던전 개수 초기화
         
-        for j in range(len(perm[i])):
-            if k>=perm[i][j][0] and k-perm[i][j][1]>0:
-                k-=perm[i][j][1]
+        for p in perm[i]:
+            if k>=p[0] and k-p[1]>0:
+                k-=p[1]
                 temp+=1
             else:
                 continue
