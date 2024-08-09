@@ -8,7 +8,7 @@ def solution(n):
             hanoi(n-1, start, inter, end)
             hanoi(1, start, end, inter)
             hanoi(n-1, inter, end, start)
-            
+    
     hanoi(n, 1, 3, 2)
     return answer
 
