@@ -1,15 +1,14 @@
 def solution(elements):
     answer = 0
-    s=set()
     
-    l = len(elements)
+    n = len(elements)
+    elements = elements*2
+    s = set()
     
-    elements+=elements
+    #print(elements)
+    for i in range(n):
+        for j in range(n):
+            s.add(sum(elements[i:i+j+1]))
     
-    
-    for i in range(l):
-        for j in range(l):
-            s.add(sum(elements[j:j+i+1]))
-    
-        
+    #print(s)
     return len(s)
