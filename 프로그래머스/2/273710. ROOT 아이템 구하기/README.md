@@ -1,6 +1,6 @@
 # [level 2] ROOT 아이템 구하기 - 273710 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/273710) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/273710?language=mysql) 
 
 ### 성능 요약
 
@@ -12,11 +12,11 @@
 
 ### 채점결과
 
-합계: 100.0 / 100.0
+합계: 20.0 / 100.0
 
 ### 제출 일자
 
-2024년 04월 03일 16:38:11
+2024년 10월 22일 15:57:52
 
 ### 문제 설명
 
